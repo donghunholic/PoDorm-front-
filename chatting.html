@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="chatting.css">
+    <link rel="stylesheet" href="nav.css">
+    <title>채팅</title>
+  </head>
+  <body>
+    <div class="container">
+      <a href="mainpage.html"><img src="logo.png" style="display: block; margin: 15px auto 0px;"><br></a>
+      <nav>
+        <ul>
+          <li><a href="board.html">게시판</a></li>
+          <li><a href="report.html">신고</a></li>
+          <li><a href="neighbor.html">이웃</a></li>
+          <li><a href="message.html">쪽지</a></li>
+          <li><a href="mypage.html">마이페이지</a></li>
+        </ul>
+      </nav>
+      <div class="totbox">
+        <div class="listbox">
+          <div class="listblock">
+            102호<br>
+            김삿갓(기계공학과, 19학번)
+          </div>
+        </div>
+        <div class="chattingbox">
+          <div class="chatting">
+            <div class="oppo">
+              안녕하세요
+            </div><br><br><br>
+            <div class="oppo">
+              옆방인데요 롤하시는데 많이 화나신건 알겠는데
+            </div><br><br><br>
+            <div class="oppo">
+              조금만 조용히 해주실 수 있으실까요?
+            </div><br><br><br>
+            <div class="my">
+              죄송합니다 조심하도록 하겠습니다
+            </div>
+          </div>
+          <form action="chat.php" method="POST" target="_blank">
+            <input type="text" name="chat" style="width:85%">
+            <input type="submit" name="submit" value="Send">
+          </form>
+        </div>
+      </div>
+    </div>

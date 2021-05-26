@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>글쓰기</title>
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="writing.css">
+  </head>
+  <body>
+    <div class="container">
+      <a href="mainpage.html">
+        <img src="logo.png" style="display: block; margin: 15px auto 0px;"><br>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="board.html">게시판</a></li>
+          <li><a href="report.html">신고</a></li>
+          <li><a href="neighbor.html">이웃</a></li>
+          <li><a href="message.html">쪽지</a></li>
+          <li><a href="mypage.html">마이페이지</a></li>
+        </ul>
+      </nav>
+      <div class="maxbox">
+        <form action="write.php" method=post target="_blank">
+          <textarea name="text" wrap="hard"></textarea>
+          <br>
+          <label id="an">익명</label>
+          <input type="radio" id="an">
+          <label id="un">거주주소</label>
+          <input type="radio" id="un"><br><br>
+          <input type="submit" name="write" onclick="location.href='board1.html'" value="글쓰기">
+        </form>
+      </div>
+
+    </div>
+  </body>
+</html>

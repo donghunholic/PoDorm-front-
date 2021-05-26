@@ -1,0 +1,67 @@
+
+
+.board{
+  display:block;
+  width:678px;
+  height: 500px;
+  margin:10px 0px; 
+  border: 1px rgb(200,1,80) solid;
+  border-radius: 7px;
+  float:left;
+  text-align:left;
+  padding: 0px 10px;
+}
+.minimypage{
+  width:280px;
+  height: 200px;
+  float:right;
+  margin:10px 0px; 
+  border: 1px rgb(200,1,80) solid;
+  border-radius: 7px;
+  padding: 10px 0px;
+}
+
+.message{
+  width:280px;
+  height: 238px;
+  float:right;
+  margin:10px 0px; 
+  border: 1px rgb(200,1,80) solid;
+  border-radius: 7px;
+  padding: 10px 0px;
+}
+
+p{
+  padding-left: 20px;
+  padding-bottom: 10px;;
+}
+
+.chatblock{
+  width:80%;
+  height: auto;
+  margin: 10px auto;
+  border: rgb(102,102,92) 1px solid;
+  border-radius: 7px;
+  padding: 10px;
+}
+
+.chatbox{
+  width:80%;
+  height: 130px;
+  margin: 10px auto;
+  border: rgb(102,102,92) 1px solid;
+  border-radius: 7px;
+  padding: 10px;
+}
+
+.chatbox::-webkit-scrollbar {
+  width: 10px;
+}
+.chatbox::-webkit-scrollbar-thumb {
+  background-color: rgb(200,1,80);
+  border-radius: 10px;
+}
+.chatbox::-webkit-scrollbar-track {
+  background-color: rgb(102,102,92);
+  border-radius: 10px;
+}

@@ -1,0 +1,18 @@
+.maxbox{
+  width:992px;
+  height: 700px;
+  margin: 10px auto;
+  border: rgb(102,102,92) 2px solid;
+  border-radius: 10px;
+}
+
+textarea{
+  width:80%;
+  height:500px;
+  margin:15px auto;
+  vertical-align:top;
+  border-radius: 7px;
+  word-break:break-all;
+  border:rgb(102,102,92) 1px solid;
+  resize: none;
+}

@@ -1,0 +1,44 @@
+.loginform {
+  position:absolute;
+  width:500px;
+  height:400px;
+  padding: 30px, 20px;
+  background-color:#FFFFFF;
+  text-align:center;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  border-radius: 15px;
+  border: black 1px solid;
+  text-align: center;
+}
+
+.boxform{
+  border-bottom: 2px solid #adadad;
+  margin: 30px auto;
+  padding: 10px 10px;
+  border: grey 1px solid;
+  width: 70%;
+}
+
+.text {
+  width: 80%;
+  color: grey;
+  font-size:12px;
+  height:25px;
+}
+
+.button {
+  position:relative;
+  left:40%;
+  transform: translateX(-50%);
+  margin-bottom: 40px;
+  width:80%;
+  height:40px;
+  background: rgb(200,1,80);
+  color:white;
+  font-weight: bold;
+  border:none;
+  display:inline;
+  border-radius: 10px;
+}
